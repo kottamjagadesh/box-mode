@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .top{
+      text-align: center;
+      padding-right: 10px;
+    }
+    .t1{
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      padding-right: 10px;
+      border: solid black 1px;
+    }
+
+    .t1:hover{
+      text-decoration-line: underline;
+      text-decoration-thickness: 5px;
+      color: rgb(74, 164, 88);
+    }
+    .info{
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0%;  
+      color: black;
+      
+    }
+    .top .t1:hover .info{
+      display: block;
+      text-decoration-line: none;
+       
+    }
+    ul{
+      list-style: none;
+    
+    }
+    
+    li{
+      padding-bottom: 10px;
+      width: 200%;
+      box-shadow: rgb(223, 239, 240);
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div class="t1">Courses
+      <div class="info">
+        <ul>
+          <li>DSA to Development</li>
+          <li>For Working Professionals</li>
+          <li>For Studies</li>
+          <li>Full Stack Development</li>
+          <li>All Courses</li>
+        </ul>
+      </div>
+    </div>
+    <div class="t1">Placement
+      <div class="info">
+        <ul>
+          <li>Placement prep with DSA</li>
+          <li>Tech Interview 101 - For Working Professional</li>
+          <li>DSA to Development</li>
+          <li>DSA-Self Paced</li>
+          <li>System Design</li>
+          <li>Practice</li>
+        </ul>
+      </div>
+    </div>
+    <div class="t1">Data Science
+      <div class="info">
+        <ul>
+          <li>Data Science & Machine Learning</li>
+          <li>Data Science Training Program</li>
+          <li>Data Analytics-Live</li>
+          <li>Data Analytics Classroom Program</li>
+        </ul>
+      </div>
+    </div>
+    <div class="t1">Gate
+      <div class="info">
+        <ul>
+          <li>GATE CS</li>
+          <li>GATE DA</li>
+          <li>GATE EC</li>
+          <li>GATE ISRO</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
